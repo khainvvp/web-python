@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Liên hệ
+{% endblock %}
+
+{% block style %}
+    {% load static %}
+    <link href="{% static 'css/media_query.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="{% static 'css/animate.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="{% static 'css/owl.carousel.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'css/owl.theme.default.css' %}" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap CSS -->
+    <link href="{% static 'css/style_1.css' %}" rel="stylesheet" type="text/css"/>
+    <!-- Modernizr JS -->
+    <script src="{% static 'js/modernizr-3.5.0.min.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<div class="container-fluid contact_us_bg_img" style="z-index: 1;">
+    <div class="container">
+        <div class="row">
+            <a href="#" class="fh5co_con_123"><i class="fa fa-home"></i></a>
+            <a href="#" class="fh5co_con pt-2"> Liên hệ với chúng tôi </a>
+        </div>
+    </div>
+</div>
+<div class="container-fluid  fh5co_fh5co_bg_contcat">
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-md-4 py-3">
+                <div class="row fh5co_contact_us_no_icon_difh5co_hover">
+                    <div class="col-3 fh5co_contact_us_no_icon_difh5co_hover_1">
+                        <div class="fh5co_contact_us_no_icon_div"> <span><i class="fa fa-phone"></i></span> </div>
+                    </div>
+                    <div class="col-9 align-self-center fh5co_contact_us_no_icon_difh5co_hover_2">
+                        <span class="c_g d-block">Gọi cho tôi</span>
+                        <span class="d-block c_g fh5co_contact_us_no_text">0333690032</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3">
+                <div class="row fh5co_contact_us_no_icon_difh5co_hover">
+                    <div class="col-3 fh5co_contact_us_no_icon_difh5co_hover_1">
+                        <div class="fh5co_contact_us_no_icon_div"> <span><i class="fa fa-envelope"></i></span> </div>
+                    </div>
+                    <div class="col-9 align-self-center fh5co_contact_us_no_icon_difh5co_hover_2">
+                        <span class="c_g d-block">Bạn có thắc mắc?</span>
+                        <span class="d-block c_g fh5co_contact_us_no_text">n14python@ptit.edu.vn</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3">
+                <div class="row fh5co_contact_us_no_icon_difh5co_hover">
+                    <div class="col-3 fh5co_contact_us_no_icon_difh5co_hover_1">
+                        <div class="fh5co_contact_us_no_icon_div"> <span><i class="fa fa-map-marker"></i></span> </div>
+                    </div>
+                    <div class="col-9 align-self-center fh5co_contact_us_no_icon_difh5co_hover_2">
+                        <span class="c_g d-block">Địa chỉ</span>
+                        <span class="d-block c_g fh5co_contact_us_no_text">Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mb-4">
+    <div class="container">
+        <div class="col-12 text-center contact_margin_svnit ">
+            <div class="text-center fh5co_heading py-2">Liên hệ với chúng tôi</div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form class="row" id="fh5co_contact_form">
+                    <div class="col-12 py-3">
+                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="Nhập tên của bạn" />
+                    </div>
+                    <div class="col-6 py-3">
+                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="E-mail" />
+                    </div>
+                    <div class="col-6 py-3">
+                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="Chủ đề" />
+                    </div>
+                    <div class="col-12 py-3">
+                        <textarea class="form-control fh5co_contacts_message" placeholder="Nội dung"></textarea>
+                    </div>
+                    <div class="col-12 py-3 text-center"> <a href="#" class="btn contact_btn">Gửi tin nhắn</a> </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 align-self-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.3049423384978!2d105.7856335152756!3d20.980409994802283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135accdd8a1ad71%3A0xa2f9b16036648187!2zSOG7jWMgdmnhu4duIEPDtG5nIG5naOG7hyBCxrB1IGNow61uaCB2aeG7hW4gdGjDtG5n!5e0!3m2!1svi!2s!4v1651407788555!5m2!1svi!2s" class="map_sss" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+
+{% block sript  %}
+    {% load static %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+    <!-- Waypoints -->
+    <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+    <!-- Main -->
+    <script src="{% static 'js/main.js' %}"></script>
+{% endblock %}
